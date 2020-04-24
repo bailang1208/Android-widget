@@ -23,6 +23,7 @@
     <dimen name="l_5x_large">36dp</dimen>
     <dimen name="l_6x_large">40dp</dimen>
 
+    <dimen name="status_bar">24dp</dimen>
     <dimen name="action_bar">56dp</dimen>
     <dimen name="edit_box">44dp</dimen>
     <dimen name="btn_height">44dp</dimen>
