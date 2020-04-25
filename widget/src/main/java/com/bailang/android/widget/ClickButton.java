@@ -6,6 +6,8 @@ import android.util.AttributeSet;
 
 import androidx.appcompat.widget.AppCompatTextView;
 
+import com.bailang.android.R;
+
 public class ClickButton extends AppCompatTextView {
 
     public ClickButton(Context context, AttributeSet attrs, int defStyle) {

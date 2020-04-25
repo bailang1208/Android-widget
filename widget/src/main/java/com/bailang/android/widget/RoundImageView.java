@@ -13,6 +13,8 @@ import android.util.Log;
 
 import androidx.appcompat.widget.AppCompatImageView;
 
+import com.bailang.android.R;
+
 public class RoundImageView extends AppCompatImageView {
 
     public static final String TAG = "RoundedImageView";

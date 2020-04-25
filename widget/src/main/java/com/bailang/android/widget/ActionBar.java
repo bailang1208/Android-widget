@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.bailang.android.R;
+
 public class ActionBar extends ViewGroup implements View.OnClickListener {
 
     RelativeLayout contentBar;
