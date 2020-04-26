@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
 
+    <com.bailang.android.widget.ui.ActionBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:left_icon="@drawable/ic_menu"
+        app:right_icon="@drawable/ic_search"
+        app:right_icon_tint="@color/white"
+        app:hide_top_bar="false"
+        app:hide_shadow="false"
+        app:background="@color/blue"/>
+
+    <com.bailang.android.widget.ui.ActionBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/l_large"
+        app:left_icon="@drawable/ic_facebook"
+        app:left_icon_tint="@color/white"
+        app:background="@color/green"/>
+
+    <com.bailang.android.widget.ui.ClickButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height" />
 </LinearLayout>

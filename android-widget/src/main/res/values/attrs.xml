@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ActionBar">
+        <attr name="title" format="string"/>
+        <attr name="left_icon" format="reference"/>
+        <attr name="left_icon_tint" format="color" />
+        <attr name="right_icon" format="reference" />
+        <attr name="right_icon_tint" format="color" />
+        <attr name="logo" format="reference" />
+        <attr name="logo_tint" format="color" />
+        <attr name="hide_logo" format="boolean" />
+        <attr name="hide_top_bar" format="boolean" />
+        <attr name="hide_shadow" format="boolean" />
+        <attr name="background" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius"      format="dimension" />
+        <attr name="qb_border_width"    format="dimension" />
+        <attr name="qb_border_color"    format="color" />
+        <attr name="mutate_background"  format="boolean" />
+        <attr name="oval"               format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+</resources>

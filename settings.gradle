@@ -1,2 +1,2 @@
-include ':app', ':widget'
-rootProject.name='WidgetSample'
+include ':app', ':android-widget'
+rootProject.name='Widget Sample'
