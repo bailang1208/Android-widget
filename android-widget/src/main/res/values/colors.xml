@@ -11,4 +11,6 @@
     <color name="error">#e8194f</color>
     <color name="btn_text">#292835</color>
     <color name="btn_text_click">#aa292835</color>
+    <color name="btn_green">#00b189</color>
+    <color name="btn_green_click">#aa00b189</color>
 </resources>

@@ -25,5 +25,6 @@
 
     <com.bailang.android.widget.ui.ClickButton
         android:layout_width="match_parent"
-        android:layout_height="@dimen/btn_height" />
+        android:layout_height="@dimen/btn_height"
+        android:text="Button"/>
 </LinearLayout>

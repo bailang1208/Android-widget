@@ -24,4 +24,10 @@
         <attr name="android:scaleType" />
     </declare-styleable>
 
+    <declare-styleable name="ClickButton">
+        <attr name="normal_color" format="color" />
+        <attr name="pressed_color" format="color" />
+        <attr name="disable_color" format="color" />
+    </declare-styleable>
+
 </resources>
