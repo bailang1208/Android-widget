@@ -3,9 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <com.bailang.android.widget.ui.ActionBar
+        android:id="@+id/action_bar_01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:left_icon="@drawable/ic_menu"
@@ -16,15 +18,18 @@
         app:background="@color/blue"/>
 
     <com.bailang.android.widget.ui.ActionBar
+        android:id="@+id/action_bar_02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/l_large"
         app:left_icon="@drawable/ic_facebook"
         app:left_icon_tint="@color/white"
-        app:background="@color/green"/>
+        app:background="@color/primary"/>
 
     <com.bailang.android.widget.ui.ClickButton
+        android:id="@+id/btn_click"
         android:layout_width="match_parent"
         android:layout_height="@dimen/btn_height"
+        android:layout_margin="@dimen/l_large"
         android:text="Button"/>
 </LinearLayout>

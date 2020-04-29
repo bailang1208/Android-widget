@@ -28,6 +28,15 @@
         <attr name="normal_color" format="color" />
         <attr name="pressed_color" format="color" />
         <attr name="disable_color" format="color" />
+        <attr name="normal_border_color" format="color" />
+        <attr name="pressed_border_color" format="color" />
+        <attr name="disable_border_color" format="color" />
+        <attr name="border_width" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="left_top_radius" format="dimension" />
+        <attr name="right_top_radius" format="dimension" />
+        <attr name="left_bottom_radius" format="dimension" />
+        <attr name="right_bottom_radius" format="dimension" />
     </declare-styleable>
 
 </resources>
