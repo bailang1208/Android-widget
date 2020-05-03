@@ -32,4 +32,5 @@
         android:layout_height="@dimen/btn_height"
         android:layout_margin="@dimen/l_large"
         android:text="Button"/>
+
 </LinearLayout>
