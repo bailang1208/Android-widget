@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="ActionBar">
+    <declare-styleable name="BLWidget">
         <attr name="title" format="string"/>
         <attr name="left_icon" format="reference"/>
         <attr name="left_icon_tint" format="color" />
@@ -12,7 +12,8 @@
         <attr name="hide_logo" format="boolean" />
         <attr name="hide_top_bar" format="boolean" />
         <attr name="hide_shadow" format="boolean" />
-        <attr name="background" format="color" />
+        <attr name="show_bottom_line" format="boolean" />
+        <attr name="hint" format="string"/>
     </declare-styleable>
 
     <declare-styleable name="RoundedImageView">

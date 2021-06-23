@@ -1,14 +1,25 @@
 <resources>
-    <dimen name="font_x_small">8sp</dimen>
-    <dimen name="font_small">10sp</dimen>
-    <dimen name="font_medium">12sp</dimen>
-    <dimen name="font_large">14sp</dimen>
-    <dimen name="font_x_large">16sp</dimen>
-    <dimen name="font_2x_large">20sp</dimen>
-    <dimen name="font_3x_large">24sp</dimen>
-    <dimen name="font_4x_large">28sp</dimen>
-    <dimen name="font_5x_large">32sp</dimen>
-    <dimen name="font_6x_large">36sp</dimen>
+    <dimen name="font_04">4sp</dimen>
+    <dimen name="font_06">6sp</dimen>
+    <dimen name="font_08">8sp</dimen>
+    <dimen name="font_10">10sp</dimen>
+    <dimen name="font_12">12sp</dimen>
+    <dimen name="font_14">14sp</dimen>
+    <dimen name="font_16">16sp</dimen>
+    <dimen name="font_18">18sp</dimen>
+    <dimen name="font_20">20sp</dimen>
+    <dimen name="font_22">22sp</dimen>
+    <dimen name="font_24">24sp</dimen>
+    <dimen name="font_26">26sp</dimen>
+    <dimen name="font_28">28sp</dimen>
+    <dimen name="font_30">30sp</dimen>
+    <dimen name="font_32">32sp</dimen>
+    <dimen name="font_34">34sp</dimen>
+    <dimen name="font_36">36sp</dimen>
+    <dimen name="font_38">38sp</dimen>
+    <dimen name="font_40">40sp</dimen>
+    <dimen name="font_42">42sp</dimen>
+    <dimen name="font_46">46sp</dimen>
 
     <dimen name="l_3x_small">1dp</dimen>
     <dimen name="l_2x_small">2dp</dimen>
@@ -33,4 +44,6 @@
     <dimen name="btn_corner_small">4dp</dimen>
     <dimen name="btn_corner">6dp</dimen>
     <dimen name="btn_corner_large">8dp</dimen>
+
+    <dimen name="line">1dp</dimen>
 </resources>

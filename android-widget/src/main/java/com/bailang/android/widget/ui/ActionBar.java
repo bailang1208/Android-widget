@@ -39,21 +39,20 @@ public class ActionBar extends LinearLayout implements View.OnClickListener {
     public ActionBar(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ActionBar, 0, 0);
-        String titleText = a.getString(R.styleable.ActionBar_title);
-        int leftIcon = a.getResourceId(R.styleable.ActionBar_left_icon, -1);
-        int rightIcon = a.getResourceId(R.styleable.ActionBar_right_icon, -1);
-        int logo = a.getResourceId(R.styleable.ActionBar_logo, -1);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.BLWidget, 0, 0);
+        String titleText = a.getString(R.styleable.BLWidget_title);
+        int leftIcon = a.getResourceId(R.styleable.BLWidget_left_icon, -1);
+        int rightIcon = a.getResourceId(R.styleable.BLWidget_right_icon, -1);
+        int logo = a.getResourceId(R.styleable.BLWidget_logo, -1);
 
-        ColorStateList leftTint = a.getColorStateList(R.styleable.ActionBar_left_icon_tint);
-        ColorStateList rightTint = a.getColorStateList(R.styleable.ActionBar_right_icon_tint);
-        ColorStateList logoTint = a.getColorStateList(R.styleable.ActionBar_logo_tint);
-        int background = a.getColor(R.styleable.ActionBar_background, -1);
+        ColorStateList leftTint = a.getColorStateList(R.styleable.BLWidget_left_icon_tint);
+        ColorStateList rightTint = a.getColorStateList(R.styleable.BLWidget_right_icon_tint);
+        ColorStateList logoTint = a.getColorStateList(R.styleable.BLWidget_logo_tint);
+//        int background = a.getColor(R.styleable.BLWidget_background, -1);
 
-
-        boolean isHideLogo = a.getBoolean(R.styleable.ActionBar_hide_logo, true);
-        boolean isHideTopBar = a.getBoolean(R.styleable.ActionBar_hide_top_bar, false);
-        boolean isHideShadow = a.getBoolean(R.styleable.ActionBar_hide_shadow, false);
+        boolean isHideLogo = a.getBoolean(R.styleable.BLWidget_hide_logo, true);
+        boolean isHideTopBar = a.getBoolean(R.styleable.BLWidget_hide_top_bar, false);
+        boolean isHideShadow = a.getBoolean(R.styleable.BLWidget_hide_shadow, false);
 
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.action_bar, this, true);
@@ -97,9 +96,9 @@ public class ActionBar extends LinearLayout implements View.OnClickListener {
             imgLogo.setImageTintList(logoTint);
         }
 
-        if(background != -1) {
-            container.setBackgroundColor(background);
-        }
+//        if(background != -1) {
+//            container.setBackgroundColor(background);
+//        }
 
         if(isHideLogo) {
             imgLogo.setVisibility(GONE);

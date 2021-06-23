@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android-Widget</string>
+    <string name="edit_text">EditText</string>
 </resources>
